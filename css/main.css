@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
 
 html {
-    background-color: lightgray;
+    background-color: #99908b;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -29,7 +29,7 @@ h1.page-header{
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: rgb(253, 253, 253);
     overflow: auto;
 }
 
@@ -50,7 +50,7 @@ a {
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #B7B7B7;
     text-decoration: none;
 }
 
@@ -78,6 +78,7 @@ footer {
         width: 50%;
         float: left;
         margin-right: 2em;
+        margin-left: 2em;
     }
     
 }
