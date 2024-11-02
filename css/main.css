@@ -14,7 +14,7 @@ html {
     color: #000; 
     background: #ff0;
 }
-
+ 
 
 h1 {
     font-weight: 'normal';
@@ -25,6 +25,8 @@ h1 {
     background-size: cover;
     width: 100%;
     height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 h1.page-header{
@@ -34,12 +36,13 @@ h1.page-header{
 }
 
 main.wrapper {
-    background-image: url('../images/white.jpg');
-    background-position: center;
-    overflow: auto;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background: rgba(255, 255, 255, 0.622); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0.1px;
+    color: #333;
 }
 
 h2.subheader {
@@ -93,6 +96,7 @@ footer {
         margin-right: 2em;
         margin-left: 2em;
         margin-top: 2em;
+        border-radius: 10px;
     }
     
 }
@@ -112,7 +116,10 @@ footer {
     picture.profile img {
         width: 50%;
         float: right;
-        margin-left: 1em;
+        margin-right: 2em;
+        margin-top: 2em;
+        margin-left: 2em;
+        border-radius: 10px;
     }
 
 }
