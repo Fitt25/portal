@@ -15,11 +15,16 @@ html {
     background: #ff0;
 }
 
+
 h1 {
     font-weight: 'normal';
     margin: auto;
-    background: white;
     line-height: 2.5em;
+    background-image: url('../images/unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
 }
 
 h1.page-header{
@@ -29,8 +34,12 @@ h1.page-header{
 }
 
 main.wrapper {
-    background-color: rgb(253, 253, 253);
+    background-image: url('../images/white.jpg');
+    background-position: center;
     overflow: auto;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
 h2.subheader {
